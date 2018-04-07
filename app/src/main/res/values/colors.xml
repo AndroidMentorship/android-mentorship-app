@@ -3,4 +3,18 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <string-array name="colors">
+        <item name="colorRed">#D32F2F</item>
+        <item name="colorPink">#C2185B</item>
+        <item name="colorPurple">#7B1FA2</item>
+        <item name="colorDeepPurple">#512DA8</item>
+        <item name="colorIndigo">#303F9F</item>
+        <item name="colorBlue">#1976D2</item>
+        <item name="colorBrown">#5D4037</item>
+        <item name="colorGrey">#455A64</item>
+        <item name="colorOrange">#F57C00</item>
+        <item name="colorGreen">#388E3C</item>
+    </string-array>
+
 </resources>
