@@ -5,13 +5,11 @@ import android.support.annotation.Nullable;
 
 import com.am.fdamilola.bankingapp.activities.FirstActivity;
 import com.am.fdamilola.bankingapp.R;
+import com.am.fdamilola.bankingapp.base.classes.ViewModelInteface;
 import com.am.fdamilola.bankingapp.debug.utils.DebugLog;
 import com.am.fdamilola.bankingapp.base.classes.RouletteManager;
 
-/**
- * Created by fdamilola on 07/04/2018.
- */
-public class FirstActivityVM implements FirstActivityVMInterface, CountingCallback {
+public class FirstActivityVM implements ViewModelInteface, CountingCallback {
 
     private FirstActivity activity;
     private RouletteManager rouletteManager;
@@ -45,6 +43,11 @@ public class FirstActivityVM implements FirstActivityVMInterface, CountingCallba
     public void destroyView() {
         this.activity = null;
         this.rouletteManager = null;
+    }
+
+    @Override
+    public void onPause(long timeLeft) {
+
     }
 
     @Override

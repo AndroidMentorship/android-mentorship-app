@@ -22,7 +22,6 @@ public class FirstActivityPresenterImpl implements FirstActivityPresenter {
         return new FirstActivityPresenterImpl(firstActivityVM);
     }
 
-    @Override
     public void onDestroy() {
         this.firstActivityVM.destroyView();
         this.unbinder.unbind();

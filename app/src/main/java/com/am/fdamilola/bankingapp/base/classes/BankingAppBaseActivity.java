@@ -11,10 +11,13 @@ public abstract class BankingAppBaseActivity extends AppCompatActivity {
 
     private String className = null;
 
+    public boolean isReady;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.logMessage(" onCreate -> ".concat(this.getClassName()));
+        this.isReady = true;
     }
 
     @Override
@@ -22,6 +25,7 @@ public abstract class BankingAppBaseActivity extends AppCompatActivity {
         super.onDestroy();
         className = null;
         this.logMessage(" onDestroy -> ". concat(this.getClassName()));
+        this.isReady = false;
     }
 
     protected String getClassName() {

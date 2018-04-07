@@ -2,6 +2,7 @@ package com.am.fdamilola.bankingapp.activities;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 import com.am.fdamilola.bankingapp.R;
 import com.am.fdamilola.bankingapp.base.classes.BankingAppBaseActivity;
@@ -15,6 +16,7 @@ public class FirstActivity extends BankingAppBaseActivity {
 
     @BindView(R.id.color_view_one) public View colorViewOne;
     @BindView(R.id.color_view_two) public View colorViewTwo;
+    @BindView(R.id.button_change_color) public Button bCountDown;
 
     private FirstActivityPresenterImpl presenter = null;
 
@@ -22,7 +24,7 @@ public class FirstActivity extends BankingAppBaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first);
-        presenter = FirstActivityPresenterImpl.createSingleInstance(new FirstActivityVM(this, savedInstanceState));
+        presenter = FirstActivityPresenterImpl.createSingleInstance(new FirstActivityVM(this, null));
     }
 
     @OnClick(R.id.button_change_color)
@@ -31,8 +33,20 @@ public class FirstActivity extends BankingAppBaseActivity {
     }
 
     @Override
+    protected void onPause() {
+        super.onPause();
+
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+    }
+
+    @Override
     protected void onDestroy() {
         super.onDestroy();
         presenter.onDestroy();
+        presenter = null;
     }
 }

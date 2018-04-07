@@ -7,13 +7,16 @@ import org.junit.runner.RunWith;
 import org.robolectric.Robolectric;
 import org.robolectric.RobolectricTestRunner;
 
+import static org.junit.Assert.assertTrue;
+
+
 @RunWith(RobolectricTestRunner.class)
 public class FirstActivitySampleTest {
 
     @Test
-    public void clickingButton_shouldChangeResultsViewText() throws Exception {
+    public void sampleTest() {
         FirstActivity activity = Robolectric.setupActivity(FirstActivity.class);
-
-
+        assertTrue(activity.isReady);
     }
+
 }
