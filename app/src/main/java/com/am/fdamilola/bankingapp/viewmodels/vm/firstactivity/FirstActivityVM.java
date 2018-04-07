@@ -5,11 +5,11 @@ import android.support.annotation.Nullable;
 
 import com.am.fdamilola.bankingapp.activities.FirstActivity;
 import com.am.fdamilola.bankingapp.R;
-import com.am.fdamilola.bankingapp.base.classes.ViewModelInteface;
+import com.am.fdamilola.bankingapp.base.classes.ViewModelInterface;
 import com.am.fdamilola.bankingapp.debug.utils.DebugLog;
 import com.am.fdamilola.bankingapp.base.classes.RouletteManager;
 
-public class FirstActivityVM implements ViewModelInteface, CountingCallback {
+public class FirstActivityVM implements ViewModelInterface, CountingCallback {
 
     private FirstActivity activity;
     private RouletteManager rouletteManager;
