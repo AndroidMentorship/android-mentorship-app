@@ -46,11 +46,6 @@ public class FirstActivityVM implements ViewModelInterface, CountingCallback {
     }
 
     @Override
-    public void onPause(long timeLeft) {
-
-    }
-
-    @Override
     public void onNewColor(String colorOneCode, String colorTwoCode) {
         this.activity.colorViewOne.setBackgroundColor(Color.parseColor(colorOneCode));
         this.activity.colorViewTwo.setBackgroundColor(Color.parseColor(colorTwoCode));
