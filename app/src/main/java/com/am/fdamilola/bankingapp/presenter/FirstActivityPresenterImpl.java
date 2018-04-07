@@ -13,13 +13,13 @@ public class FirstActivityPresenterImpl implements FirstActivityPresenter {
     private Unbinder unbinder;
     private FirstActivityVM firstActivityVM;
 
+    public static FirstActivityPresenterImpl createSingleInstance(FirstActivityVM firstActivityVM) {
+        return new FirstActivityPresenterImpl(firstActivityVM);
+    }
+
     private FirstActivityPresenterImpl(FirstActivityVM firstActivityVM) {
         this.firstActivityVM = firstActivityVM;
         this.unbinder = ButterKnife.bind(this.firstActivityVM.getActivity());
-    }
-
-    public static FirstActivityPresenterImpl createSingleInstance(FirstActivityVM firstActivityVM) {
-        return new FirstActivityPresenterImpl(firstActivityVM);
     }
 
     public void onDestroy() {
