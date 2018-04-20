@@ -1,0 +1,25 @@
+Task 2
+1. Being able to survive from a coniguration Change.
+   - The app Crashes when the ```play``` button is pressed.
+   - This is due to the fact that the views where not instantiated before the colors were added to the views.
+   - This can be fixed by refactoring teh code and handing savedinstace state.
+   - The problem might be a issue with the architecture being used
+2. The app is suppose to be a game
+   - A Dashboard can be added to show highscores
+   -How to implement
+   - A Database will be setup to persist the high scores
+   - A view will be created to hold this scores.
+ 3. Multiplayer Mode can be added.
+    - A mode can be added where a user can choose to batle himself or with his friend
+    -
+4. Ability to share scores
+    - A share button ca be added at the higscore Activity if a user wishes to share the app with his friend
+    - A Share intet can be created to carry only the score and the User name.
+*
+*
+*
+*
+*
+*
+*
+*
