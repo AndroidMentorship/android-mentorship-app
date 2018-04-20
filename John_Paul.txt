@@ -1,0 +1,11 @@
+The first thing that I think is very important is to deal with the User interface of the game.
+I suggest we have two separate views the first one should serve as the one that will show the random
+colors being displayed while the second will contain a grid view that will have each grid-box contain
+all the predefined colors contained in the game... This way the user will be able to choose the next
+random color while the color is still being displayed.
+
+Another thing is that there should be a counter to display the number of random color guessed correctly,
+if the player reaches a certain score then the player should be able to unlock higher levels in the game.
+
+Finally, there should be a rate this game dialog when the user wants to exit the the game or share
+this game on social media profiles
