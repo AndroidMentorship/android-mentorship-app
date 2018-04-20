@@ -1,0 +1,25 @@
+Task 2
+
+Yes, the view can be implemented.
+
+Below explains how this would be achieved.
+
+In summary, the "View" will be manipulated in the java code to increase in number 
+according to the level of difficulties chosen.
+
+Implementation:
+First activity: shows the level of difficulties to a user. i.e
+		Easy - 3 views
+		Medium - 6 views
+		Hard - 10 views
+For example, when a user clicks on "Easy", it goes to the next (second) activity.
+
+Second activity: displays 3 views with respect to the level chosen from
+		the previous activity. While the colors show and animate intervally,
+		it come to a halt at a point and asks (by showing a dialog/fragment) 
+		the user to guess the next colors to be displayed by showing 
+		list of colors to select.
+NB: A lighter shade of colors selected would indicate the next colors to be displayed 
+at random.
+
+This would work fine for other levels i.e Medium and Hard.
