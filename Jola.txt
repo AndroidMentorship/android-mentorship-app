@@ -1,0 +1,8 @@
+Improvements to the Colour Roulette App
+
+The following features should be implemented on the App
+
+1. An interface that contains instructions to playing the game should appear immediately the app has finished loading.
+2. An interface that requests for the user's guess on the next color to display.
+3  In the Easy, Medium and Difficult levels, the user may have to guess 3, 6 and 10 colors to display.
+4. Each stage should have an interface that indicates the end of the game and the result.	
