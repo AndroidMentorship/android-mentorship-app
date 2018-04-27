@@ -1,0 +1,22 @@
+**Android mentorship v2.0**
+Task 2
+Improvements :
+
+ -Implementation of a splash screen
+
+
+- The First Activity should be a dashboard  which shows the current highscore, the play and the quit game  button which should lead to the second activity
+
+ -The Second Activity should be a screen which requires the user to select difficulty
+        Easy - 3 colors
+   		Medium - 6 colors
+   		Hard - 10 colors
+   		the user choice of difficulty will determine the amount of views in the next activity which has the game playing logic
+
+ - at the end of each gameplay there should have an interface that indicates the end of the game , the result and 2 buttons  one to play again and one to quit.
+
+
+
+
+
+
