@@ -17,4 +17,47 @@
         <item name="colorGreen">#388E3C</item>
     </string-array>
 
+    <!--General colors-->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!--Splash screen color palette -->
+    <color name="splashScreenTextColor">#F7CF4A</color>
+
+    <!--Single player menu screen color palette -->
+    <color name="bgColorBlue">#2F80ED</color>
+    <color name="bgColorPinkLight">#F456C8</color>
+    <color name="bgColorPinkDark">#FA158A</color>
+    <color name="easyButtonColor">#65471B</color>
+    <color name="mediumButtonColor">#FB7B76</color>
+    <color name="hardButtonColor">#A2D4DE</color>
+    <color name="exitButtonOrange">#F7941E</color>
+    <color name="exitButtonGreen">#4BB14E</color>
+
+    <!--Color palette layout -->
+    <color name="selectColorPane">#07245C</color>
+
+    <!--Main menu color palette -->
+    <color name="SPButtonGreenLight">#53CB51</color>
+    <color name="SPButtonGreenDark">#174C16</color>
+    <color name="SPButtonShadow">#F7CF4A</color>
+    <color name="SPTextColor">#FA158A</color>
+    <color name="MPButtonPinkLight">#F456C8</color>
+    <color name="MPButtonPinkDark">#AB408D</color>
+    <color name="MPButtonShadow">#3FAA97</color>
+
+    <!--Multi player menu screen color palette -->
+    <color name="MPBgColorPink">#CA4764</color>
+    <color name="MPBgColorPurple">#6C007A</color>
+    <color name="MPPlayButtonYello">#FCBC85</color>
+    <color name="MPPlayTextColor">#DE0A0A</color>
+    <color name="MPExitButtonTextColor">#4125ED</color>
+    <color name="MPExitButtonColor">#FF646A</color>
+
+    <!--Alert dialog color palette -->
+    <color name="DialogTextColor">#F34334</color>
+    <color name="DialogOptionsColor">#2F80ED</color>
+    <color name="DialogCongratsColor">#0C3D80</color>
+
+
 </resources>
