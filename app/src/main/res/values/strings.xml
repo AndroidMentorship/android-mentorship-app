@@ -1,11 +1,10 @@
 <resources>
+    <!--Base app strings-->
     <string name="app_name">Color Roulette</string>
-    <string name="play">Play</string>
 
-    <string name="title_activity_main_menu">MainMenuActivity</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
-    <string name="main_menu">Main Menu</string>
-    <string name="single_player">Single Player</string>
+    <!--strings in alphabetical order-->
     <string name="multi_player">Multi Player</string>
+    <string name="play">Play</string>
+    <string name="single_player">Single Player</string>
+
 </resources>
