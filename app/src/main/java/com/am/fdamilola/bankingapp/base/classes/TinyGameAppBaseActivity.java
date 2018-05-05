@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import com.am.fdamilola.bankingapp.debug.utils.DebugLog;
 
 
-public abstract class BankingAppBaseActivity extends AppCompatActivity {
+public abstract class TinyGameAppBaseActivity extends AppCompatActivity {
 
     private String className = null;
 
