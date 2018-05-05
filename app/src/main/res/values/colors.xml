@@ -51,7 +51,7 @@
     <!--Multi player menu screen color palette -->
     <color name="MPBgColorPink">#CA4764</color>
     <color name="MPBgColorPurple">#6C007A</color>
-    <color name="MPPlayButtonYello">#FCBC85</color>
+    <color name="MPPlayButtonYellow">#FCBC85</color>
     <color name="MPPlayTextColor">#DE0A0A</color>
     <color name="MPExitButtonTextColor">#4125ED</color>
     <color name="MPExitButtonColor">#FF646A</color>

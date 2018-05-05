@@ -6,18 +6,15 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <!--Base application text font-->
+        <item name="android:textViewStyle">@style/AppTheme.Widget.TextView</item>
     </style>
 
-    <style name="FullscreenTheme" parent="AppTheme">
-        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
-        <item name="android:windowActionBarOverlay">true</item>
-        <item name="android:windowBackground">@null</item>
-        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
-        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
-    </style>
+    <style name="AppTheme.Widget"/>
 
-    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
-        <item name="android:background">@color/black_overlay</item>
+    <style name="AppTheme.Widget.TextView" parent="android:Widget.Holo.Light.TextView">
+        <item name="fontPath">fonts/Candr___.ttf</item>
     </style>
 
 </resources>
