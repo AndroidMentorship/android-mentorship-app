@@ -3,10 +3,10 @@ package com.am.fdamilola.bankingapp.activities;
 import android.os.Bundle;
 
 import com.am.fdamilola.bankingapp.R;
-import com.am.fdamilola.bankingapp.base.classes.BankingAppBaseActivity;
+import com.am.fdamilola.bankingapp.base.classes.TinyGameAppBaseActivity;
 
 
-public class MenuActivity extends BankingAppBaseActivity {
+public class MenuActivity extends TinyGameAppBaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
