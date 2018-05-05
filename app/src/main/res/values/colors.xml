@@ -62,6 +62,7 @@
     <color name="dialog_congrats_color">#0C3D80</color>
 
     <color name="black_overlay">#66000000</color>
+    <color name="ripple_effect_color">#4DE0E0E0</color>
 
 
 </resources>
