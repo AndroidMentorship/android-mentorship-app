@@ -6,30 +6,34 @@
     tools:context="com.am.fdamilola.bankingapp.activities.MenuActivity"
     tools:ignore="MissingPrefix">
 
-    <Button
-        android:id="@+id/single_player_button"
-        android:layout_width="354dp"
-        android:layout_height="70dp"
-        android:background="@drawable/single_player_button"
-        android:text="@string/single_player"
-        android:textAllCaps="false"
-        android:textColor="@color/SPTextColor"
-        android:textSize="40sp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/multi_player_button"
-        android:layout_width="354dp"
-        android:layout_height="70dp"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/multi_player_button"
-        android:text="@string/multi_player"
-        android:textAllCaps="false"
-        android:textColor="@color/white"
-        android:textSize="40sp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="70dp"/>
+        <Button
+            android:id="@+id/single_player_button"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:background="@drawable/single_player_button"
+            android:text="@string/single_player"
+            android:textAllCaps="false"
+            android:textColor="@color/sp_text_color"
+            android:textSize="@dimen/button_text_size" />
 
+        <Button
+            android:id="@+id/multi_player_button"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@drawable/multi_player_button"
+            android:text="@string/multi_player"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/button_text_size" />
+
+    </LinearLayout>
 
 </RelativeLayout>
