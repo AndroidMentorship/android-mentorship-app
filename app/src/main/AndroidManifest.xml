@@ -11,14 +11,17 @@
         android:theme="@style/AppTheme">
         <activity android:name=".activities.FirstActivity">
 
+
+        </activity>
+        <activity
+            android:name=".activities.MenuActivity"
+            android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.MenuActivity"
-            android:screenOrientation="landscape"/>
     </application>
 
 </manifest>
