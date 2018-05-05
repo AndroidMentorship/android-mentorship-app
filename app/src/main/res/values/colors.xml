@@ -39,12 +39,14 @@
 
     <!--Main menu color palette -->
     <color name="SPButtonGreenLight">#53CB51</color>
-    <color name="SPButtonGreenDark">#174C16</color>
+    <color name="SPButtonGreenDark">#33174C16</color>
+    <color name="SPButtonEndColor">#9b8336</color>
     <color name="SPButtonShadow">#F7CF4A</color>
     <color name="SPTextColor">#FA158A</color>
     <color name="MPButtonPinkLight">#F456C8</color>
     <color name="MPButtonPinkDark">#AB408D</color>
-    <color name="MPButtonShadow">#3FAA97</color>
+    <color name="MPButtonPinkLighter">#61AB408D</color>
+    <color name="MPButtonShadow">#B53FAA97</color>
 
     <!--Multi player menu screen color palette -->
     <color name="MPBgColorPink">#CA4764</color>
@@ -58,6 +60,8 @@
     <color name="DialogTextColor">#F34334</color>
     <color name="DialogOptionsColor">#2F80ED</color>
     <color name="DialogCongratsColor">#0C3D80</color>
+
+    <color name="black_overlay">#66000000</color>
 
 
 </resources>
