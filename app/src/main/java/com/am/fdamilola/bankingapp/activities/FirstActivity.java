@@ -5,14 +5,14 @@ import android.view.View;
 import android.widget.Button;
 
 import com.am.fdamilola.bankingapp.R;
-import com.am.fdamilola.bankingapp.base.classes.BankingAppBaseActivity;
+import com.am.fdamilola.bankingapp.base.classes.TinyGameAppBaseActivity;
 import com.am.fdamilola.bankingapp.presenter.FirstActivityPresenterImpl;
 import com.am.fdamilola.bankingapp.viewmodels.vm.firstactivity.FirstActivityVM;
 
 import butterknife.BindView;
 import butterknife.OnClick;
 
-public class FirstActivity extends BankingAppBaseActivity {
+public class FirstActivity extends TinyGameAppBaseActivity {
 
     @BindView(R.id.color_view_one) public View colorViewOne;
     @BindView(R.id.color_view_two) public View colorViewTwo;

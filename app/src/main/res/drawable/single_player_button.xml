@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item android:right="0dp" android:top="0dp">
+                <shape>
+                    <corners android:radius="100dp" />
+                    <solid android:color="@color/sp_button_shadow" />
+                </shape>
+            </item>
+            <item android:bottom="4dp" android:left="0dp">
+                <shape
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:shape="rectangle">
+
+                    <gradient android:startColor="@color/sp_button_green_light"
+                        android:endColor="@color/sp_button_shadow"
+                        android:type="linear"
+                        android:angle="270"/>
+                    <corners android:radius="100dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

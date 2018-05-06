@@ -1,13 +1,19 @@
 package com.am.fdamilola.bankingapp.base.classes;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.view.WindowManager;
 
+import com.am.fdamilola.bankingapp.R;
 import com.am.fdamilola.bankingapp.debug.utils.DebugLog;
 
+import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
+import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
-public abstract class BankingAppBaseActivity extends AppCompatActivity {
+
+public abstract class TinyGameAppBaseActivity extends AppCompatActivity {
 
     private String className = null;
 
@@ -16,6 +22,11 @@ public abstract class BankingAppBaseActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        //Enables full screen view
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
         this.logMessage(" onCreate -> ".concat(this.getClassName()));
         this.isReady = true;
     }
@@ -38,5 +49,11 @@ public abstract class BankingAppBaseActivity extends AppCompatActivity {
 
     protected void logMessage(@Nullable String message) {
         DebugLog.logMessage(message);
+    }
+
+    //Enable custom font
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
     }
 }
