@@ -11,5 +11,6 @@
 
 ## Chore List
 - [x] Tested on emulator
-- [x] Tested on a real device
-- [x] Screenshots attached
+- [ ] Tested on a real device
+- [ ] Screenshots attached
+- [ ] GIF of feature being used added
