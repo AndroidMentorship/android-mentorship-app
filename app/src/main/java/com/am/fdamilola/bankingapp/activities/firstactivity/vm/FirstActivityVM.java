@@ -1,4 +1,4 @@
-package com.am.fdamilola.bankingapp.viewmodels.vm.firstactivity;
+package com.am.fdamilola.bankingapp.activities.firstactivity.vm;
 
 import android.graphics.Color;
 import android.support.annotation.Nullable;
@@ -6,7 +6,7 @@ import android.support.annotation.Nullable;
 import com.am.fdamilola.bankingapp.activities.FirstActivity;
 import com.am.fdamilola.bankingapp.R;
 import com.am.fdamilola.bankingapp.base.classes.ViewModelInterface;
-import com.am.fdamilola.bankingapp.debug.utils.DebugLog;
+import com.am.fdamilola.bankingapp.utils.debug.DebugLog;
 import com.am.fdamilola.bankingapp.base.classes.RouletteManager;
 
 public class FirstActivityVM implements ViewModelInterface, CountingCallback {

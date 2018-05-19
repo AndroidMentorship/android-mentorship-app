@@ -6,8 +6,8 @@ import android.widget.Button;
 
 import com.am.fdamilola.bankingapp.R;
 import com.am.fdamilola.bankingapp.base.classes.TinyGameAppBaseActivity;
-import com.am.fdamilola.bankingapp.presenter.FirstActivityPresenterImpl;
-import com.am.fdamilola.bankingapp.viewmodels.vm.firstactivity.FirstActivityVM;
+import com.am.fdamilola.bankingapp.activities.firstactivity.presenter.FirstActivityPresenterImpl;
+import com.am.fdamilola.bankingapp.activities.firstactivity.vm.FirstActivityVM;
 
 import butterknife.BindView;
 import butterknife.OnClick;
@@ -35,7 +35,6 @@ public class FirstActivity extends TinyGameAppBaseActivity {
     @Override
     protected void onPause() {
         super.onPause();
-
     }
 
     @Override

@@ -6,12 +6,9 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.WindowManager;
 
-import com.am.fdamilola.bankingapp.R;
-import com.am.fdamilola.bankingapp.debug.utils.DebugLog;
+import com.am.fdamilola.bankingapp.utils.debug.DebugLog;
 
-import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
-
 
 public abstract class TinyGameAppBaseActivity extends AppCompatActivity {
 
@@ -22,7 +19,6 @@ public abstract class TinyGameAppBaseActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         //Enables full screen view
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
