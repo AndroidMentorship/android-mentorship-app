@@ -6,5 +6,10 @@
     <string name="multi_player">Multi Player</string>
     <string name="play">Play</string>
     <string name="single_player">Single Player</string>
+    <string name="title_activity_game_level">GameLevelActivity</string>
+    <string name="easy">Easy</string>
+    <string name="hard">Hard</string>
+    <string name="medium">Medium</string>
+    <string name="choose_your_difficulty_level">Choose your level</string>
 
 </resources>

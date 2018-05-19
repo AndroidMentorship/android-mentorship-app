@@ -1,4 +1,4 @@
-package com.am.fdamilola.bankingapp.viewmodels.vm.firstactivity;
+package com.am.fdamilola.bankingapp.activities.firstactivity.vm;
 
 /**
  * Created by fdamilola on 07/04/2018.

@@ -6,10 +6,8 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.WindowManager;
 
-import com.am.fdamilola.bankingapp.R;
-import com.am.fdamilola.bankingapp.debug.utils.DebugLog;
+import com.am.fdamilola.bankingapp.utils.debug.DebugLog;
 
-import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 

@@ -64,5 +64,18 @@
     <color name="black_overlay">#66000000</color>
     <color name="ripple_effect_color">#4DE0E0E0</color>
 
+    <!--Button colors-->
+    <color name="button_guess_green">#53CB51</color>
+    <color name="button_single_player_color">@color/button_guess_green</color>
+    <color name="button_multi_player_color">#F4BA03</color>
+    <color name="button_easy_level_color">#A3C14F</color>
+    <color name="button_medium_level_color">#E64256</color>
+    <color name="button_hard_level_color">#239DB2</color>
+
+    <color name="button_default_color">#4BB14E</color>
+    <color name="button_cancel_color">#FFE17D</color>
+
+    <color name="background_player_mode_color">#3E343D</color>
+    <color name="background_choose_level_color">#3F4C60</color>
 
 </resources>

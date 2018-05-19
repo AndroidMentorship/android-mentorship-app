@@ -1,0 +1,5 @@
+<resources>
+    <declare-styleable name="TButtonView">
+        <attr name="baseColor" format="color"/>
+    </declare-styleable>
+</resources>
