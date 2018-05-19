@@ -2,9 +2,6 @@ package com.am.fdamilola.bankingapp.utils;
 
 import android.graphics.Color;
 
-/**
- * Created by fdamilola on 19/05/2018.
- */
 public class ColorManipulator {
 
     public static int makeDarker(int color, float factor) {

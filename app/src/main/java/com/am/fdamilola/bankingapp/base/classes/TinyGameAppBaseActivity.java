@@ -10,7 +10,6 @@ import com.am.fdamilola.bankingapp.utils.debug.DebugLog;
 
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
-
 public abstract class TinyGameAppBaseActivity extends AppCompatActivity {
 
     private String className = null;
@@ -20,7 +19,6 @@ public abstract class TinyGameAppBaseActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         //Enables full screen view
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);

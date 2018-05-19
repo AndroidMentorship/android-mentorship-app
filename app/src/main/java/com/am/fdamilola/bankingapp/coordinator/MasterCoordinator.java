@@ -7,9 +7,6 @@ import android.widget.Toast;
 
 import com.am.fdamilola.bankingapp.activities.menu.GameLevelActivity;
 
-/**
- * Created by fdamilola on 19/05/2018.
- */
 public class MasterCoordinator {
 
     public static void singlePlayerClicked(Context context, @Nullable Object data){

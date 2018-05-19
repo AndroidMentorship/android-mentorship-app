@@ -1,11 +1,9 @@
 package com.am.fdamilola.bankingapp.activities.menu.presenters;
 
-
-import com.am.fdamilola.bankingapp.activities.menu.GameTypeActivity;
-import com.am.fdamilola.bankingapp.coordinator.MasterCoordinator;
-
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
+import com.am.fdamilola.bankingapp.activities.menu.GameTypeActivity;
+import com.am.fdamilola.bankingapp.coordinator.MasterCoordinator;
 
 public class GameTypeActivityPresenterImpl implements GameTypeActivityPresenter {
 

@@ -1,12 +1,10 @@
 package com.am.fdamilola.bankingapp.activities.menu;
 
 import android.os.Bundle;
-
+import butterknife.OnClick;
 import com.am.fdamilola.bankingapp.R;
 import com.am.fdamilola.bankingapp.activities.menu.presenters.GameLevelActivityPresenterImpl;
 import com.am.fdamilola.bankingapp.base.classes.TinyGameAppBaseActivity;
-
-import butterknife.OnClick;
 
 public class GameLevelActivity extends TinyGameAppBaseActivity {
 

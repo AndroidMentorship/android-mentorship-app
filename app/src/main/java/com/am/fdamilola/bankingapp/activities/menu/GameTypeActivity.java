@@ -8,7 +8,6 @@ import com.am.fdamilola.bankingapp.activities.menu.presenters.GameTypeActivityPr
 
 import butterknife.OnClick;
 
-
 public class GameTypeActivity extends TinyGameAppBaseActivity {
 
     private GameTypeActivityPresenterImpl presenter;
