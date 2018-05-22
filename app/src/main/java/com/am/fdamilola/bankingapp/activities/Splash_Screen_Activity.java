@@ -9,11 +9,14 @@ import android.widget.TextView;
 import com.am.fdamilola.bankingapp.R;
 import com.am.fdamilola.bankingapp.base.classes.TinyGameAppBaseActivity;
 
+import butterknife.BindView;
+
 public class Splash_Screen_Activity  extends TinyGameAppBaseActivity {
 
-    // Splash screen timer'
-    private TextView mSplashText ;
+    // Splash screen timer
     private static int SPLASH_TIME_OUT = 3000;
+    private  final Handler handler = new Handler();
+
 
 
     @Override
@@ -22,23 +25,15 @@ public class Splash_Screen_Activity  extends TinyGameAppBaseActivity {
         setContentView(R.layout.activity_splash);
 
 
-        mSplashText = (TextView) findViewById(R.id.splash_text_id);
-        Typeface getfont= Typeface.createFromAsset(getAssets(),
-                "fonts/Candr___.ttf");
-        mSplashText.setTypeface(getfont);
 
 
 
-        new Handler().postDelayed(new Runnable() {
+        handler.postDelayed(new Runnable() {
 
             /*
              * Showing splash screen with a timer. This will be useful when you
              * want to show case your app logo / company
              */
-
-
-
-
             @Override
             public void run() {
                 // This method will be executed once the timer is over
@@ -49,5 +44,14 @@ public class Splash_Screen_Activity  extends TinyGameAppBaseActivity {
                 finish();
             }
         }, SPLASH_TIME_OUT);
+    }
+
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        //This resolves the memory leak by removing the handler references.
+
+        handler.removeCallbacksAndMessages(null);
     }
 }
