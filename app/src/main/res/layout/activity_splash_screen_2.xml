@@ -9,13 +9,13 @@
 
     <TextView
         android:id="@+id/splash_screen_2_textView_top"
-        android:layout_width="319dp"
+        android:layout_width="@dimen/text_layout_width"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="@dimen/text_margin_top"
         android:text="@string/splash_screen_2_text"
         android:textColor="@color/white"
-        android:textSize="24sp"/>
+        android:textSize="@dimen/text_view_text_size"/>
 
 
     <TextView
@@ -23,18 +23,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
-        android:layout_marginRight="30dp"
+        android:layout_marginRight="@dimen/text_margin_right"
         android:text="@string/splash_screen_2_text_name"
         android:textColor="@color/white"
-        android:textSize="24sp"/>
+        android:textSize="@dimen/text_view_text_size"/>
 
     <Button
         android:id="@+id/splash_screen_2_button"
-        android:layout_width="205dp"
+        android:layout_width="@dimen/button_layout_width"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="50dp"
-        android:background="#53CB51"
-        android:text="Guess"
+        android:layout_marginTop="@dimen/button_margin_top"
+        android:background="@color/splash_screen_2_button_background"
+        android:text="@string/button_splash_screen_2_text_name"
         android:textColor="@color/white"/>
 </LinearLayout>
