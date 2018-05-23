@@ -23,6 +23,11 @@
             android:name=".activities.menu.GameLevelActivity"
             android:screenOrientation="portrait"
             android:label="@string/title_activity_game_level" />
+
+        <activity android:name=".activities.SplashScreen2"
+                  android:screenOrientation="portrait"/>
     </application>
+
+
 
 </manifest>

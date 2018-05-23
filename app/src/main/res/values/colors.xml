@@ -23,6 +23,10 @@
 
     <!--Splash screen color palette -->
     <color name="splash_screen_text_color">#F7CF4A</color>
+    <color name="splash_screen_2_text_color">#282828</color>
+    <color name="splash_screen_2_button_background">#53CB51</color>
+
+
 
     <!--Single player menu screen color palette -->
     <color name="bg_color_blue">#2F80ED</color>

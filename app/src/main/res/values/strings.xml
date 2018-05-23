@@ -12,4 +12,9 @@
     <string name="medium">Medium</string>
     <string name="choose_your_difficulty_level">Choose your level</string>
 
+    <string name="splash_screen_2_text">A lucky guess is never merely luck. There is always some talent in it.</string>
+    <string name="splash_screen_2_text_name"> - Jane Austen</string>
+    <string name="button_splash_screen_2_text_name"> Guess </string>
+
+
 </resources>
