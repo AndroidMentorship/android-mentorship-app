@@ -7,6 +7,7 @@ import android.os.Handler;
 import android.widget.TextView;
 
 import com.am.fdamilola.bankingapp.R;
+import com.am.fdamilola.bankingapp.activities.menu.GameTypeActivity;
 import com.am.fdamilola.bankingapp.base.classes.TinyGameAppBaseActivity;
 
 import butterknife.BindView;
@@ -38,7 +39,7 @@ public class Splash_Screen_Activity  extends TinyGameAppBaseActivity {
             public void run() {
                 // This method will be executed once the timer is over
                 // Start your app main activity
-                Intent i = new Intent(Splash_Screen_Activity.this, MenuActivity .class);
+                Intent i = new Intent(Splash_Screen_Activity.this, Splash_Screen_Activity_2.class);
                 startActivity(i);
                 // close this activity
                 finish();

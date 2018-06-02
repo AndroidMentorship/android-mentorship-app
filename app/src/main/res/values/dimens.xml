@@ -12,15 +12,9 @@
     <dimen name="fab_margin">16dp</dimen>
 
     <!--Splash Image attributes-->
-    <dimen name="splash_image_width">189dp</dimen>
-    <dimen name="splash_image_height">157dp</dimen>
-    <dimen name="splash_image_padding_top">207.59dp</dimen>
 
-
-
-
-    <dimen name="splash_image_text_width">199dp</dimen>
-    <dimen name="splash_image_text_height">106dp</dimen>
-    <dimen name="splash_image_text_padding_bottom">180dp</dimen>
+    <dimen name="margin_space">10dp</dimen>
+    <dimen name="button_margin_space">75dp</dimen>
+    <dimen name="text_size">20sp</dimen>
 
 </resources>

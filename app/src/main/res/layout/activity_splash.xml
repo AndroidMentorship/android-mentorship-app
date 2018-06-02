@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
               xmlns:app="http://schemas.android.com/apk/res-auto"
               android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
                 android:background="@color/splash_screen_background" >
 
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="@dimen/splash_image_width"
-        android:layout_height="@dimen/splash_image_height"
-        android:layout_gravity="center"
-        android:layout_weight="1"
-        android:paddingTop="@dimen/splash_image_padding_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
         app:srcCompat="@drawable/newsplashscreenlogo"/>
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="@dimen/splash_image_text_width"
-        android:layout_height="@dimen/splash_image_text_height"
-        android:layout_gravity="center"
-        android:layout_weight="1"
-        android:paddingBottom="@dimen/splash_image_text_padding_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/margin_space"
         app:srcCompat="@drawable/newsplashscreentext"/>
-</LinearLayout>
+</RelativeLayout>
