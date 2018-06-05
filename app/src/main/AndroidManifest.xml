@@ -10,29 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".activities.FirstActivity" />
-
         <activity
             android:name=".activities.menu.GameTypeActivity"
             android:screenOrientation="portrait"/>
-
-        <activity android:name=".activities.Splash_Screen_Activity"
+        <activity android:name=".activities.menu.SplashScreenActivity"
                   android:screenOrientation="portrait">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-
-
         <activity
             android:name=".activities.menu.GameLevelActivity"
             android:screenOrientation="portrait"
             android:label="@string/title_activity_game_level" />
-
-        <activity android:name=".activities.Splash_Screen_Activity_2"
+        <activity android:name=".activities.menu.QuoteScreenActivity"
                   android:screenOrientation="portrait"
             />
     </application>
