@@ -4,6 +4,10 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
+    <color name="splash_screen_background">#292F33</color>
+    <color name="splash_screen_2_button_background">#53CB51</color>
+    <color name="splash_screen_2_text_color">#282828</color>
+
     <string-array name="colors">
         <item name="colorRed">#D32F2F</item>
         <item name="colorPink">#C2185B</item>
@@ -16,5 +20,66 @@
         <item name="colorOrange">#F57C00</item>
         <item name="colorGreen">#388E3C</item>
     </string-array>
+
+    <!--General colors-->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!--Splash screen color palette -->
+    <color name="splash_screen_text_color">#F7CF4A</color>
+
+    <!--Single player menu screen color palette -->
+    <color name="bg_color_blue">#2F80ED</color>
+    <color name="bg_color_pink_light">#F456C8</color>
+    <color name="bg_color_pink_dark">#FA158A</color>
+    <color name="easy_button_color">#65471B</color>
+    <color name="medium_button_color">#FB7B76</color>
+    <color name="hard_button_color">#A2D4DE</color>
+    <color name="exit_button_orange">#F7941E</color>
+    <color name="exit_button_green">#4BB14E</color>
+
+    <!--Color palette layout -->
+    <color name="select_color_pane">#07245C</color>
+
+    <!--Main menu color palette -->
+    <color name="sp_button_green_light">#53CB51</color>
+    <color name="sp_button_green_dark">#33174C16</color>
+    <color name="sp_button_end_color">#9b8336</color>
+    <color name="sp_button_shadow">#F7CF4A</color>
+    <color name="sp_text_color">#FA158A</color>
+    <color name="mp_button_pink_light">#F456C8</color>
+    <color name="mp_button_pink_dark">#AB408D</color>
+    <color name="mp_button_pink_lighter">#61AB408D</color>
+    <color name="mp_button_shadow">#B53FAA97</color>
+
+    <!--Multi player menu screen color palette -->
+    <color name="mp_bg_color_pink">#CA4764</color>
+    <color name="mp_bg_color_purple">#6C007A</color>
+    <color name="mp_play_button_yellow">#FCBC85</color>
+    <color name="mp_play_text_color">#DE0A0A</color>
+    <color name="mp_exit_button_text_color">#4125ED</color>
+    <color name="mp_exit_button_color">#FF646A</color>
+
+    <!--Alert dialog color palette -->
+    <color name="dialog_text_color">#F34334</color>
+    <color name="dialog_options_color">#2F80ED</color>
+    <color name="dialog_congrats_color">#0C3D80</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="ripple_effect_color">#4DE0E0E0</color>
+
+    <!--Button colors-->
+    <color name="button_guess_green">#53CB51</color>
+    <color name="button_single_player_color">@color/button_guess_green</color>
+    <color name="button_multi_player_color">#F4BA03</color>
+    <color name="button_easy_level_color">#A3C14F</color>
+    <color name="button_medium_level_color">#E64256</color>
+    <color name="button_hard_level_color">#239DB2</color>
+
+    <color name="button_default_color">#4BB14E</color>
+    <color name="button_cancel_color">#FFE17D</color>
+
+    <color name="background_player_mode_color">#3E343D</color>
+    <color name="background_choose_level_color">#3F4C60</color>
 
 </resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splash_screen_2_text_color"
+    android:orientation="vertical"
+    android:gravity="center
+">
+
+
+    <TextView
+        android:id="@+id/splash_screen_2_top_quote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/margin_space"
+        android:layout_marginRight="@dimen/margin_space"
+        android:text="@string/splash_screen_2_quote"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size"/>
+
+
+    <TextView
+        android:id="@+id/splash_screen_2_bottom_quote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="@dimen/margin_space"
+        android:layout_marginRight="@dimen/margin_space"
+        android:layout_marginTop="@dimen/margin_space"
+        android:text="@string/splash_screen_2_quote_name"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size"/>
+
+    <Button
+        android:id="@+id/splash_screen_2_button"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/button_margin_space"
+        android:background="@color/splash_screen_2_button_background"
+        android:text="@string/splash_screen_2_buttontext"
+        android:textColor="@color/white"/>
+</LinearLayout>

@@ -1,6 +1,6 @@
-package com.am.fdamilola.bankingapp.presenter;
+package com.am.fdamilola.bankingapp.activities.firstactivity.presenter;
 
-import com.am.fdamilola.bankingapp.viewmodels.vm.firstactivity.FirstActivityVM;
+import com.am.fdamilola.bankingapp.activities.firstactivity.vm.FirstActivityVM;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
@@ -22,6 +22,7 @@ public class FirstActivityPresenterImpl implements FirstActivityPresenter {
         this.unbinder = ButterKnife.bind(this.firstActivityVM.getActivity());
     }
 
+    @Override
     public void onDestroy() {
         this.firstActivityVM.destroyView();
         this.unbinder.unbind();

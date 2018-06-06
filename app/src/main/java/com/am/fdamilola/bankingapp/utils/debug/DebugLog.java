@@ -1,4 +1,4 @@
-package com.am.fdamilola.bankingapp.debug.utils;
+package com.am.fdamilola.bankingapp.utils.debug;
 
 import android.support.annotation.Nullable;
 import android.util.Log;

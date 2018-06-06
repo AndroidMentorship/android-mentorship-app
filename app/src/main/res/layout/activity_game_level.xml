@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_player_mode_color"
+    tools:context=".activities.menu.GameLevelActivity">
+
+    <TextView
+        android:id="@+id/choose_level_textview"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_alignParentTop="true"
+        android:gravity="bottom"
+        android:text="@string/choose_your_difficulty_level"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:paddingBottom="15dp"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/choose_level_textview"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.am.fdamilola.bankingapp.base.classes.TButtonView
+            android:id="@+id/easy_level_button"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/easy"
+            android:textSize="@dimen/button_text_size"
+            app:baseColor="@color/button_easy_level_color" />
+
+        <com.am.fdamilola.bankingapp.base.classes.TButtonView
+            android:id="@+id/medium_level_button"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/medium"
+            android:textSize="@dimen/button_text_size"
+            app:baseColor="@color/button_medium_level_color" />
+
+        <com.am.fdamilola.bankingapp.base.classes.TButtonView
+            android:id="@+id/hard_level_button"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/hard"
+            android:textSize="@dimen/button_text_size"
+            app:baseColor="@color/button_hard_level_color" />
+
+    </LinearLayout>
+
+</RelativeLayout>

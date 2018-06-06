@@ -1,4 +1,21 @@
 <resources>
+    <!--Base app strings-->
     <string name="app_name">Color Roulette</string>
+
+    <!--strings in alphabetical order-->
+    <string name="multi_player">Multi Player</string>
     <string name="play">Play</string>
+    <string name="single_player">Single Player</string>
+    <string name="title_activity_game_level">GameLevelActivity</string>
+    <string name="easy">Easy</string>
+    <string name="hard">Hard</string>
+    <string name="medium">Medium</string>
+    <string name="choose_your_difficulty_level">Choose your level</string>
+
+
+
+    <string name="splash_screen_2_quote"> "A lucky guess is never merely luck. There is always some talent in it."</string>
+    <string name="splash_screen_2_quote_name"> - Jane Austen</string>
+    <string name="splash_screen_2_buttontext"> Guess </string>
+
 </resources>

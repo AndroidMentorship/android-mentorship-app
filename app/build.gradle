@@ -28,9 +28,10 @@ android {
 ext {
     appcompatVersion = '27.1.1'
     butterKnifeVersion = '8.8.1'
-    constraintLayoutVersion = '1.0.2'
+    constraintLayoutVersion = '1.1.0'
     roboElectricVersion = '3.8'
     jUnitVersion = '4.12'
+    calligraphyVersion = '2.3.0'
 }
 
 dependencies {
@@ -39,13 +40,19 @@ dependencies {
 
     //Android Libs
     implementation "com.android.support:appcompat-v7:$appcompatVersion"
+    implementation "com.android.support:support-v4:$appcompatVersion"
     implementation "com.android.support.constraint:constraint-layout:$constraintLayoutVersion"
 
     //View Dependency Injection Libs
     implementation "com.jakewharton:butterknife:$butterKnifeVersion"
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    implementation 'com.android.support:design:27.1.1'
     annotationProcessor "com.jakewharton:butterknife-compiler:$butterKnifeVersion"
 
     //Testing libs
     testImplementation "org.robolectric:robolectric:$roboElectricVersion"
     testImplementation "junit:junit:$jUnitVersion"
+
+    //External Fonts Libs
+    implementation "uk.co.chrisjenx:calligraphy:$calligraphyVersion"
 }

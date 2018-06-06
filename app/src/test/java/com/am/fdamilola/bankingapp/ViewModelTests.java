@@ -1,7 +1,7 @@
 package com.am.fdamilola.bankingapp;
 
 import com.am.fdamilola.bankingapp.activities.FirstActivity;
-import com.am.fdamilola.bankingapp.viewmodels.vm.firstactivity.FirstActivityVM;
+import com.am.fdamilola.bankingapp.activities.firstactivity.vm.FirstActivityVM;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

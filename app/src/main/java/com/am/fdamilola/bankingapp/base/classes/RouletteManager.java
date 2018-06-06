@@ -2,8 +2,8 @@ package com.am.fdamilola.bankingapp.base.classes;
 
 import android.os.CountDownTimer;
 
-import com.am.fdamilola.bankingapp.debug.utils.DebugLog;
-import com.am.fdamilola.bankingapp.viewmodels.vm.firstactivity.CountingCallback;
+import com.am.fdamilola.bankingapp.utils.debug.DebugLog;
+import com.am.fdamilola.bankingapp.activities.firstactivity.vm.CountingCallback;
 
 import java.util.Random;
 
