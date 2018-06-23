@@ -1,13 +1,13 @@
-package com.am.fdamilola.bankingapp.activities.firstactivity.presenter;
+/**package com.am.fdamilola.bankingapp.activities.firstactivity.presenter;
 
 import com.am.fdamilola.bankingapp.activities.firstactivity.vm.FirstActivityVM;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
-/**
- * Created by fdamilola on 07/04/2018.
- */
+
+// * Created by fdamilola on 07/04/2018.
+
 public class FirstActivityPresenterImpl implements FirstActivityPresenter {
 
     private Unbinder unbinder;
@@ -33,3 +33,4 @@ public class FirstActivityPresenterImpl implements FirstActivityPresenter {
         this.firstActivityVM.playRoulette();
     }
 }
+ */

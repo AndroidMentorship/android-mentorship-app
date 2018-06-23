@@ -30,13 +30,15 @@ public class RouletteManager extends CountDownTimer {
     public void onTick(long millisUntilFinished) {
         String colorOne = this.array[random.nextInt(length)];
         String colorTwo = this.array[random.nextInt(length)];
-        this.callback.onNewColor(colorOne, colorTwo);
+        String colorThree = this.array[random.nextInt(length)];
+        this.callback.onNewColor(colorOne, colorTwo, colorThree);
     }
 
     @Override
     public void onFinish() {
         onTick(0);
         this.callback.onCountComplete();
+
     }
 
     public void startCountDown() {

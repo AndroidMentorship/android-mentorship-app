@@ -7,7 +7,7 @@ import com.am.fdamilola.bankingapp.coordinator.MasterCoordinator;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
-public class GameLevelActivityPresenterImpl implements GameLevelActivityPresenter {
+public class    GameLevelActivityPresenterImpl implements GameLevelActivityPresenter {
 
     private GameLevelActivity activity;
     private Unbinder unbinder;
