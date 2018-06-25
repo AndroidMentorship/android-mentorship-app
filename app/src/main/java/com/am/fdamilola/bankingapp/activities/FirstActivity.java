@@ -1,4 +1,4 @@
-package com.am.fdamilola.bankingapp.activities;
+/**package com.am.fdamilola.bankingapp.activities;
 
 import android.os.Bundle;
 import android.view.View;
@@ -48,4 +48,4 @@ public class FirstActivity extends TinyGameAppBaseActivity {
         presenter.onDestroy();
         presenter = null;
     }
-}
+}**/

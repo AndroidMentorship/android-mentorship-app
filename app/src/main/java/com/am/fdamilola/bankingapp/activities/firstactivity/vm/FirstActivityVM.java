@@ -1,4 +1,4 @@
-package com.am.fdamilola.bankingapp.activities.firstactivity.vm;
+/**package com.am.fdamilola.bankingapp.activities.firstactivity.vm;
 
 import android.graphics.Color;
 import android.support.annotation.Nullable;
@@ -25,6 +25,7 @@ public class FirstActivityVM implements ViewModelInterface, CountingCallback {
         activity.colorViewOne.setAlpha(0f);
         activity.colorViewTwo.setAlpha(0f);
 
+
         activity.colorViewOne.animate().alpha(1f).setDuration(5000);
         activity.colorViewTwo.animate().alpha(1f).setDuration(5000);
     }
@@ -49,7 +50,10 @@ public class FirstActivityVM implements ViewModelInterface, CountingCallback {
     public void onNewColor(String colorOneCode, String colorTwoCode) {
         this.activity.colorViewOne.setBackgroundColor(Color.parseColor(colorOneCode));
         this.activity.colorViewTwo.setBackgroundColor(Color.parseColor(colorTwoCode));
+
     }
+
+
 
     @Override
     public void onCountComplete() {
@@ -57,3 +61,4 @@ public class FirstActivityVM implements ViewModelInterface, CountingCallback {
         this.animateViews();
     }
 }
+**/

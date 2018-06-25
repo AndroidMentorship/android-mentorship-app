@@ -19,6 +19,9 @@
         <item name="colorGrey">#455A64</item>
         <item name="colorOrange">#F57C00</item>
         <item name="colorGreen">#388E3C</item>
+        <item name="colorBlack">#150d0b</item>
+        <item name="colorWhite">#FFFFFF</item>
+        <item name="colorDarkGrey">#2F4F4F</item>
     </string-array>
 
     <!--General colors-->
